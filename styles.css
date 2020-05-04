@@ -1,0 +1,120 @@
+body {
+  font-family: "Playfair Display", "Arial", "Ubuntu", sans-serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.elements {
+  padding: 0;
+}
+
+.nav {
+  list-style: none;
+  width: 900;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 160px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(72, 25, 202);
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+main {
+  width: 900px;
+  padding: 0px;
+  margin: auto;
+}
+
+.elements li {
+  display: inline-block;
+  width: 420px;
+}
+
+.item1,
+.item3,
+.item5 {
+  margin-right: 56px;
+}
+
+.item2,
+.item4 {
+  margin: 0 0 120px 0;
+}
+
+.image1 {
+  background-image: url("img/homework-01.jpg");
+  width: 420px;
+  height: 280px;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url("img/homework-02.jpg");
+  width: 420px;
+  height: 280px;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url("img/homework-03.jpg");
+  width: 420px;
+  height: 280px;
+  background-size: cover;
+}
+
+.image4 {
+  background-image: url("img/homework-04.jpg");
+  width: 420px;
+  height: 280px;
+  background-size: cover;
+}
+
+.image5 {
+  background-image: url("img/homework-05.jpg");
+  width: 420px;
+  height: 280px;
+  background-size: cover;
+}
+
+.image6 {
+  background-image: url("img/homework-06.jpg");
+  width: 420px;
+  height: 280px;
+  background-size: cover;
+}
+
+.style {
+  font-family: Ubuntu;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.call_me {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+button {
+  width: 166px;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+}
