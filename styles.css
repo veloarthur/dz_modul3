@@ -11,8 +11,9 @@ body {
 
 .nav {
   list-style: none;
-  width: 900;
+  width: 900px;
   margin: 0 auto;
+  padding: 72px;
   text-align: center;
 }
 
@@ -30,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: rgb(72, 25, 202);
+  color: #35baf6;
 }
 
 .nav-item:last-child {
@@ -40,23 +41,16 @@ a:hover {
 main {
   width: 900px;
   padding: 0px;
-  margin: auto;
+  margin: 26px auto;
 }
 
 .elements li {
   display: inline-block;
   width: 420px;
+  margin: 0 56px 120px 0;
 }
-
-.item1,
-.item3,
-.item5 {
-  margin-right: 56px;
-}
-
-.item2,
-.item4 {
-  margin: 0 0 120px 0;
+.elements li:nth-child(even) {
+  margin: 0;
 }
 
 .image1 {
